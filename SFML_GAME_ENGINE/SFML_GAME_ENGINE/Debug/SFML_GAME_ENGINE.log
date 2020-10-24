@@ -1,0 +1,51 @@
+﻿  Collider.cpp
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.cpp(41,21): warning C4018: <: несоответствие типов со знаком и без знака
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.cpp(54,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xutility(5133,21): error C2676: бинарный "==": "GameObject" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xutility(5167): message : выполняется компиляция ссылки на экземпляр шаблон функции "_InIt std::_Find_unchecked1<_InIt,_Ty>(_InIt,const _InIt,const _Ty &,std::false_type)"
+          with
+          [
+              _InIt=GameObject *,
+              _Ty=GameObject
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xutility(5173): message : выполняется компиляция ссылки на экземпляр шаблон функции "_InIt std::_Find_unchecked<GameObject*,_Ty>(const _InIt,const _InIt,const _Ty &)"
+          with
+          [
+              _InIt=GameObject *,
+              _Ty=GameObject
+          ]
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.cpp(18): message : выполняется компиляция ссылки на экземпляр шаблон функции "_InIt std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,GameObject>(_InIt,const _InIt,const _Ty &)"
+          with
+          [
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<GameObject>>>,
+              _Ty=GameObject
+          ]
+  GameObject.cpp
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(17,9): error C2065: GameObject: необъявленный идентификатор
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(17,2): error C2923: std::vector: "GameObject" не является допустимым аргументом типа шаблон для параметра "_Ty"
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(17,2): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(413): message : см. объявление "std::vector"
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(27,18): error C2065: GameObject: необъявленный идентификатор
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(27,11): error C2923: std::vector: "GameObject" не является допустимым аргументом типа шаблон для параметра "_Ty"
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(27,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(413): message : см. объявление "std::vector"
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(31,28): error C2061: синтаксическая ошибка: идентификатор "GameObject"
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(32,28): error C2061: синтаксическая ошибка: идентификатор "GameObject"
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(32,35): error C2535: void Collider::addObject(void): функция-член уже определена или объявлена
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(31): message : см. объявление "Collider::addObject"
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(33,31): error C2061: синтаксическая ошибка: идентификатор "GameObject"
+  main.cpp
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(17,9): error C2065: GameObject: необъявленный идентификатор
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(17,2): error C2923: std::vector: "GameObject" не является допустимым аргументом типа шаблон для параметра "_Ty"
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(17,2): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(413): message : см. объявление "std::vector"
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(27,18): error C2065: GameObject: необъявленный идентификатор
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(27,11): error C2923: std::vector: "GameObject" не является допустимым аргументом типа шаблон для параметра "_Ty"
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(27,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(413): message : см. объявление "std::vector"
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(31,28): error C2061: синтаксическая ошибка: идентификатор "GameObject"
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(32,28): error C2061: синтаксическая ошибка: идентификатор "GameObject"
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(32,35): error C2535: void Collider::addObject(void): функция-член уже определена или объявлена
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(31): message : см. объявление "Collider::addObject"
+F:\Programming\Cpp\SFML_GAME_ENGINE\SFML_GAME_ENGINE\Collider.h(33,31): error C2061: синтаксическая ошибка: идентификатор "GameObject"
+  Создание кода...
